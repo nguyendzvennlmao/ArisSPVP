@@ -1,0 +1,21 @@
+# ==========================================================
+# ArisSPVP CONFIGURATION - Author: VennLMAO
+# ==========================================================
+
+settings:
+  # Danh sách các vùng WorldGuard sẽ bị chặn nổ TNT Minecart.
+  # Trong các vùng này, TNT Minecart sẽ không gây nổ block và không gây sát thương.
+  blocked-tnt-cart-regions:
+    - "spawn"
+
+  # Danh sách vật phẩm bị cấm ĐẶT (Place) và CHẾ TẠO (Craft).
+  blocked-items:
+    - END_CRYSTAL
+    - RESPAWN_ANCHOR
+
+# ==========================================================
+# HƯỚNG DẪN:
+# 1. blocked-tnt-cart-regions: Nhập chính xác ID vùng của WorldGuard.
+# 2. blocked-items: Nhập đúng tên Material (VD: END_CRYSTAL, TNT).
+# 3. Sau khi chỉnh sửa, hãy restart server để áp dụng thay đổi.
+# ==========================================================
